@@ -1,0 +1,29 @@
+{
+	"version": "0.1",
+	"name" : "dimitar-kunchev/osticketapi",
+	"description" : "Implementation of the osTicket Api",
+	"type" : "library",
+	"keywords" : [
+		"php",
+		"osticket",
+		"api"
+	],
+	"license" : "Free for use",
+	"authors" : [{
+			"name" : "Dimitar Kunchev",
+			"email" : "dimitar.kunchev@racecloud.net",
+			"role" : "developer"
+		}
+	],
+	"require" : {
+		"php" : ">=7.0",
+		"ext-curl": "*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"OSTicketAPI\\" : "src/OSTicketAPI"
+		}
+	},
+	"minimum-stability" : "stable",
+	"prefer-stable" : true
+}
